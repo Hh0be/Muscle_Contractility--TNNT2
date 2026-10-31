@@ -60,6 +60,7 @@ When cytosolic calcium concentration decreases, the thin-filament regulatory sys
 
 Therefore, TNNT2 contributes to the regulation of cardiac contraction and relaxation through its role in the calcium-sensitive troponin complex.
 
+
 # IV. Methodology
 
 ## Step 1. Set up your R project
