@@ -11,7 +11,7 @@
 **Reference Protein:** NP_001263274.1   
 **ClinVar Variation ID:** 12408   
 **Assigned Variant:** NM_001276345.2:c.266T>A (p.Ile89Asn)   
-**Date Accessed:** October 2026
+**Date Accessed:** October 28, 2026
 
 ---
 
@@ -256,22 +256,35 @@ Glutamic acid was the most abundant amino acid, while lysine and arginine were e
 
 ### Figure 1. TNNT2 Amino-Acid Composition
 
-![Figure 1. TNNT2 Amino-Acid Composition](figures/01_amino_acid_composition.png)
+![TNNT2 Amino-Acid Composition](01_amino_acid_composition.png) 
 
 **Figure 1.** Amino-acid composition of the human TNNT2 reference protein (NP_001263274.1). The bar chart illustrates the frequency of each of the 20 standard amino acids within the 298-residue protein sequence. Glutamic acid (E) was the most abundant residue, followed by lysine (K) and arginine (R).
 
 The composition describes the primary structure of the protein but cannot independently establish its three-dimensional conformation, binding interactions, or functional consequences of the assigned variant.
 
-**Output files:**
-
-- `results/amino_acid_composition.csv`
-- `figures/01_amino_acid_composition.png`
 
 ## Step 5. Open and document your PREASSIGNED ClinVar record
 
 The assigned ClinVar Variation ID 12408 was examined using the NCBI ClinVar database.
 
 **ClinVar record:** [www.ncbi.nlm.nih.gov/clinvar/variation/12408](https://www.ncbi.nlm.nih.gov/clinvar/variation/12408/)
+
+
+### Figure 2. ClinVar Evidence: TNNT2 Variant Classification
+
+![ClinVar Evidence 1](ClinVar%201.png)
+
+**Figure 2.** NCBI ClinVar record for the assigned TNNT2 variant, NM_001276345.2:c.266T>A (p.Ile89Asn), Variation ID 12408. The screenshot documents its pathogenic germline classification, two-star aggregate review status, missense molecular consequence, and reference transcript information.
+
+### Figure 3. ClinVar Evidence: Associated Conditions and Supporting Submissions
+
+![ClinVar Evidence 2](ClinVar%202.png)
+
+**Figure 3.** ClinVar evidence showing the reported clinical associations of TNNT2 p.Ile89Asn, including dilated, hypertrophic, and restrictive cardiomyopathies. The screenshot also displays individual clinical submissions, review statuses, and supporting publication information.
+
+**Source:** NCBI ClinVar, Variation ID 12408.
+https://www.ncbi.nlm.nih.gov/clinvar/variation/12408/
+
 
 ### Variant Information
 
@@ -336,13 +349,11 @@ The position was checked against the reference protein length.
 
 The resulting visualization represents the 298-amino-acid TNNT2 reference protein as a horizontal line, with a marker at residue 89.
 
-### Figure 2. TNNT2 Variant Position
+### Figure 4. TNNT2 Variant Position
 
-![Figure 2. TNNT2 Variant Position](figures/02_variant_position.png)
+![Figure 4. TNNT2 Variant Position](02_variant_position.png)
 
-**Figure 2.** Linear representation of the human cardiac troponin T reference protein (NP_001263274.1), showing the location of the assigned p.Ile89Asn missense variant at amino-acid position 89. The red marker identifies the sequence position of the substitution. The figure does not independently establish structural disruption or altered protein function.
-
-**Output file:** `figures/02_variant_position.png`
+**Figure 4.** Linear representation of the human cardiac troponin T reference protein (NP_001263274.1), showing the location of the assigned p.Ile89Asn missense variant at amino-acid position 89. The red marker identifies the sequence position of the substitution. The figure does not independently establish structural disruption or altered protein function.
 
 ### Protein Structure and Functional-Domain Interpretation
 
@@ -510,7 +521,7 @@ source("analysis.R")
 
 10. rOpenSci. *rentrez: Entrez in R.* [docs.ropensci.org/rentrez](https://docs.ropensci.org/rentrez/)
 
-**Database access date:** October 31, 2026.
+**Database access date:** October 28, 2026.
 
 # IX. Conclusion
 
